@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bmi{
+    width: 60%;
+    background-color: rgb(204, 160, 38);
+    height: 800px;
+}
+.ertekek{
+    display: block;
+    height: 200px;
+}
+.magassag{
+    display: flex;
+    
+    align-items: center;
+}
+.suly{
+    display: flex;
+    
+    align-items: center;
+}
+h2{
+    color: white;
+}
+.calculated{
+    display: flex;
+    background-color: #fff;
+    color: rgb(204, 160, 38);
+    height: 100px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(204, 160, 38);
+}
+button:hover{
+    cursor: pointer;
+}
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    
+    font-size: 15px;
+   }
+   
+ 
+   
+   .input::placeholder {
+    color: #777;
+   }
+   
+   .input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
