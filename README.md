@@ -1,4 +1,4 @@
-# [Név]
+# [Papp Dávid]
 
 ## Hogyan kezdj neki?
 
